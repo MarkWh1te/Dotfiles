@@ -1,1 +1,2 @@
-* 
+* Dotfiles
+** pip install dotfiles to sync all things
