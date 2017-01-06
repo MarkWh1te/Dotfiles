@@ -1,0 +1,2 @@
+* TODO write response state pattern
+  SCHEDULED: <2017-01-06 Fri>
