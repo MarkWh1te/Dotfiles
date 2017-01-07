@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 
 # variable declare
-# MSG="auto daily update"
+MSG="auto push"
 git pull
 git add .
-# git commit -m $MSG
-git commit -m 'dfa'
+git commit -m "\$MSG"
 git push origin master
