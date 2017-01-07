@@ -1,4 +1,19 @@
+* linux
+** TODO write auto daily push script
+   SCHEDULED: <2017-01-06 Fri>
+   :LOGBOOK:
+   CLOCK: [2017-01-07 Sat 12:53]
+   CLOCK: [2017-01-06 Fri 10:40]--[2017-01-06 Fri 17:02] =>  6:22
+   :END:
 * Coursera Machine Learning
 ** TODO review coursera ex1
   SCHEDULED: <2017-01-06 Fri>
 ** TODO finish coursera ex2
+* on web
+  :LOGBOOK:
+  CLOCK: [2017-01-06 Fri 17:03]--[2017-01-07 Sat 12:53] => 19:50
+  :END:
+* scala 
+* sicp
+* kaggle
+* tensorflow
