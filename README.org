@@ -1,2 +1,3 @@
 * Dotfiles
 ** pip install dotfiles to sync all things
+** crontab -e open add your task for daily update
