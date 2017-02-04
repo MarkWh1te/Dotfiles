@@ -5,4 +5,4 @@ git pull
 git add .
 git commit -m 'auto push'
 git push origin master
-echo $(data) >> update_time.log
+echo $(date) >> update_time.log
