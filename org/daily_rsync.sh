@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # variable declare
-git pull
+# git pull
 git add .
 git commit -m 'auto push'
-git push origin master
+git push -f origin master
 echo $(date) >> update_time.log
