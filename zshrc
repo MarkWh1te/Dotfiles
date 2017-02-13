@@ -89,4 +89,4 @@ export KF_CONFIGPATH="/data/kf_config/"
 export KF_LOGPATH="/home/mark/work/workdata/"
 export KF_ROOTPATH="/home/mark/work/"
 eval `dircolors ~/.dir_colors/dircolors`
-export TEST="TEST"
+export TEST="test"
