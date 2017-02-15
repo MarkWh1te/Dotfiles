@@ -60,6 +60,7 @@ values."
           org-html-link-home "index.html"
           org-html-link-up "http://www.markwh1te.com/"
           org-html-validation-link nil
+          ;; org-export-html-postamble-format '(("en" "<p class=\"postamble\">Last Updated %d. Created by %c</p>"))
           )
      (shell :variables
             shell-default-height 30
@@ -310,7 +311,6 @@ executes.
  This function is mostly useful for variables that need to be set
 before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
-  ;; org mode setting
   )
 
 (defun dotspacemacs/user-config ()
@@ -326,8 +326,6 @@ you should place your code here."
   (setq x-select-enable-clipboard nil)
   (setq org-agenda-files (list "~/.org/work.org"
                                "~/.org/learn.org"))
-     ;; (setq org-export-html-postamble-format
-           ;; '(("en" "<p class=\"postamble\">Last Updated %d. Created by %c</p>")))
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
