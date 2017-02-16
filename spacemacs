@@ -365,6 +365,7 @@ you should place your code here."
  '(hl-fg-colors
    (quote
     ("#002b36" "#002b36" "#002b36" "#002b36" "#002b36" "#002b36" "#002b36" "#002b36")))
+ '(magit-am-arguments (quote ("--3way")))
  '(magit-diff-use-overlays nil)
  '(nrepl-message-colors
    (quote
