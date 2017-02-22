@@ -40,7 +40,8 @@ values."
      python
      themes-megapack
      scala
-     latex
+     (latex :variables latex-build-command "LaTeX"
+                       latex-enable-auto-fill t)
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
@@ -321,6 +322,7 @@ layers configuration.
 This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
+  (add-hook 'doc-view-mode-hook 'auto-revert-mode)
   (setq powerline-default-separator 'nil)
   (setq make-backup-files nil
         auto-save-default nil)
