@@ -51,7 +51,7 @@ ZSH_THEME="bira"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git autopep8 pip)
+plugins=(git autopep8 pip autojump)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -84,9 +84,5 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias e="emacsclient -t"
-export KF_DATAPATH="/home/mark/work/workdata/"
-export KF_CONFIGPATH="/data/kf_config/"
-export KF_LOGPATH="/home/mark/work/workdata/"
-export KF_ROOTPATH="/home/mark/work/"
-eval `dircolors ~/.dir_colors/dircolors`
+#eval `dircolors ~/.dir_colors/dircolors`
 export TEST="test"
