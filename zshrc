@@ -85,4 +85,3 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias e="emacsclient -t"
 #eval `dircolors ~/.dir_colors/dircolors`
-export TEST="test"
