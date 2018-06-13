@@ -1,6 +1,8 @@
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+" Sets folds
+set fdm=syntax
 " Sets how many lines of history VIM has to remember
 set history=700
 
@@ -355,5 +357,3 @@ function! <SID>BufcloseCloseIt()
      execute("bdelete! ".l:currentBufNum)
    endif
 endfunction
-
-
